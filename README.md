@@ -20,7 +20,9 @@ sudo apt-get install libfreeimage3 libfreeimage-dev libfreeimageplus3 libfreeima
 
 
 ############ Dataset ########################
-Dataset required to be downloaded for Exercise 1
+
+>>> Exercise 1
+
 Download the recorded camera data from the TUM RGB-D SLAM Dataset
 (https://vision.in.tum.de/data/datasets/rgbd-dataset). Use the Freiburg 1 dataset “fr1/xyz”, extract the tgz
 archive to the data folder (make sure the variable filenameIn in main() is set respectively)
