@@ -20,27 +20,27 @@ sudo apt-get install libfreeimage3 libfreeimage-dev libfreeimageplus3 libfreeima
 
 ### Install flann library
 
-git clone git://github.com/mariusmuja/flann.git
-mkdir flann/build
-cd flann/build
-cmake ..
-make -j4
-make install
+1. git clone git://github.com/mariusmuja/flann.git
+2. mkdir flann/build
+3. cd flann/build
+4. cmake ..
+5. make -j4
+6. make install
 
 
 ### Install ceres library
 
 >>> Install dependencies
-sudo apt-get install libgoogle-glog-dev
-sudo apt-get install libatlas-base-dev
+1. sudo apt-get install libgoogle-glog-dev
+2. sudo apt-get install libatlas-base-dev
 
 >>> Compile Ceres
-git clone https://ceres-solver.googlesource.com/ceres-solver
-mkdir ceres-solver/build
-cd ceres-solver/build
-cmake ..
-make -j3
-make install
+1. git clone https://ceres-solver.googlesource.com/ceres-solver
+2. mkdir ceres-solver/build
+3. cd ceres-solver/build
+4. cmake ..
+5. make -j3
+6. make install
 
 
 ## Dataset
