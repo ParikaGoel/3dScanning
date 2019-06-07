@@ -18,10 +18,34 @@ This repository contains the solutions of the assignments of the above course
 
 sudo apt-get install libfreeimage3 libfreeimage-dev libfreeimageplus3 libfreeimageplus-dev
 
+>>> Install flann library
+
+git clone git://github.com/mariusmuja/flann.git
+mkdir flann/build
+cd flann/build
+cmake ..
+make -j4
+make install
+
+
+>>> Install ceres library
+
+### Install dependencies
+sudo apt-get install libgoogle-glog-dev
+sudo apt-get install libatlas-base-dev
+
+## Compile Ceres
+git clone https://ceres-solver.googlesource.com/ceres-solver
+mkdir ceres-solver/build
+cd ceres-solver/build
+cmake ..
+make -j3
+make install
+
 
 ############ Dataset ########################
 
->>> Exercise 1
+>>> Exercise 1, 4
 
 Download the recorded camera data from the TUM RGB-D SLAM Dataset
 (https://vision.in.tum.de/data/datasets/rgbd-dataset). Use the Freiburg 1 dataset “fr1/xyz”, extract the tgz
