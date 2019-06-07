@@ -2,9 +2,9 @@ Course : 3D Scanning & Motion Capture (IN2354)
 
 This repository contains the solutions of the assignments of the above course
 
-############# Dependencies ####################
+## Dependencies
 
->>> Install Eigen library
+### Install Eigen library
 
 1. Download eigen's source code from http://eigen.tuxfamily.org/index.php?title=Main_Page#Download
 2. Extract the souce code
@@ -14,11 +14,11 @@ This repository contains the solutions of the assignments of the above course
  -> cmake -D CMAKE_BUILD_TYPE=Release .. && make install
 
 
->>> Install FreeImage library
+### Install FreeImage library
 
 sudo apt-get install libfreeimage3 libfreeimage-dev libfreeimageplus3 libfreeimageplus-dev
 
->>> Install flann library
+### Install flann library
 
 git clone git://github.com/mariusmuja/flann.git
 mkdir flann/build
@@ -28,13 +28,13 @@ make -j4
 make install
 
 
->>> Install ceres library
+### Install ceres library
 
-### Install dependencies
+>>> Install dependencies
 sudo apt-get install libgoogle-glog-dev
 sudo apt-get install libatlas-base-dev
 
-## Compile Ceres
+>>> Compile Ceres
 git clone https://ceres-solver.googlesource.com/ceres-solver
 mkdir ceres-solver/build
 cd ceres-solver/build
@@ -43,9 +43,7 @@ make -j3
 make install
 
 
-############ Dataset ########################
-
->>> Exercise 1, 4
+## Dataset
 
 Download the recorded camera data from the TUM RGB-D SLAM Dataset
 (https://vision.in.tum.de/data/datasets/rgbd-dataset). Use the Freiburg 1 dataset “fr1/xyz”, extract the tgz
